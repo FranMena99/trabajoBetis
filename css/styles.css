@@ -1,0 +1,193 @@
+/*+ + + + + + + + + + + + + + + + + BODY+ + + + + + + + + + + + + + + + + + 
++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: radial-gradient(circle at 33.3% 78.93%, #fff959 0, #fffc4f 7.14%, #fffe46 14.29%, #f7ff41 21.43%, 
+    #dcff3e 28.57%, #bdfe40 35.71%, #9afb44 42.86%, #6ff84c 50%, #25f457 57.14%, #00f064 64.29%, #00ec75 71.43%, 
+    #00e987 78.57%, #00e59a 85.71%, #00e2af 92.86%, #00dfc5 100%);
+}
+
+/*+ + + + + + + + + + + + + + + + + HEADER+ + + + + + + + + + + + + + + + + + 
++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+header {
+    background-color: #117d44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+/*+ + + + + + + + + + + + + + + + + NAV+ + + + + + + + + + + + + + + + + + 
++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+nav {
+    color: rgb(255, 255, 255);
+    margin:0 15px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 70px;
+    color: white;
+}
+
+.active{
+    color:black;
+}
+/*+ + + + + + + + + + + + + + + + + MAIN+ + + + + + + + + + + + + + + + + + 
++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+label{
+    display:inline-table;
+    width: 150px
+    
+}
+
+input{
+    padding: 8px;
+}
+
+
+
+.area{
+    display:flex;
+    text-align: center;
+    margin-left: 460px;
+}
+
+
+input:focus{
+    background-color: #aef3a8;
+}
+
+iframe{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 40px;
+}
+h2{
+    font-size:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    
+}
+
+h4{
+    font-size:  15px ;
+    font-weight: 1000;
+}
+
+.texto1{
+    margin:40px 70px;
+}
+
+
+.container img{
+    margin: auto;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.ruibal{
+    border-radius: 30px;
+    
+}
+
+
+.liga1{
+    border-radius: 20px;
+    margin:30px  400px;
+    display:flex;
+    align-items: center;
+}
+
+.aficion1{
+    border-radius: 30px;
+    margin-left: 320px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-items{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+
+}
+
+
+
+
+.item img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border-color: #117d44;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+
+/*+ + + + + + + + + + + + + + + + + FOOTER+ + + + + + + + + + + + + + + + + + 
++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+footer {
+    background-color: #3c9766;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+}
+
+.icono1{
+    width: 50px;
+}
+
+.icono2{
+    width: 50px;
+}
